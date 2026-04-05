@@ -69,12 +69,15 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 ### <span style="color:green">A. Cleaning Data</span>
 - Foto pada folder data belum tentu sudah tersortir sesuai kelasnya.
 > Solusi: Memindahkan secara manual terlebih dahulu ke dalam folder yang sesuai
-- Cropping untuk meminimalisisr <i>noise</i> pada gambar dengan script python.
-- Remove background untuk kategori kelas "realperson", "face_mask" dan "face_mannequin" untuk mengenali texture.
+- Cropping untuk meminimalisisr <i>noise</i> pada gambar
+- Resize ke dalam ukuran yang sama, yaitu 224 x 224
+- Menghilangkan data duplikat
+- Fix file corrupt dan RGB/ format yang tidak sesuai
 
 ### <span style="color:green">B. Exploratory Data</span>
-- Distribusi jenis kelas
-- 
+- overview dataset
+- visual inspect
+- data quality dan structure
 <b>Kesimpulan dari EDA:</b><br>
 > 1. xxx<br>
 > 2. xxx<br>
@@ -82,7 +85,6 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 
 ### <span style="color:green">C. Preprocessing Data
 - Split data dengan komposisi 80% train dan 20% validation
-- Resize 224 x 224
 - Normalization
 - Preprocessing
 - Augmentation
@@ -93,4 +95,4 @@ halo
 halo
 
 ## 🏆 Evaluation
-> Thank you for the team deadication, cooperation and hardwork <3
+
