@@ -1,4 +1,9 @@
 # Data Analytics Competition FIND IT UGM 2026
+> | Member of "jeruk pak bas"  | Profil |
+> |------|--------|
+> | Nalini Mahastuti Panunjul | 🔗 https://www.linkedin.com/in/mahastuti/ |
+> | Dyah Ayu Nur Azizah | 🔗 https://www.linkedin.com/in/dyah-ayu-nur-azizah-5b428324a |
+> | M. Iqbal Nurrifki | 🔗 https://www.linkedin.com/in/miqbalnurrifki |
 
 
 ## 📌 Deskripsi
@@ -64,7 +69,7 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 ### <span style="color:green">A. Cleaning Data</span>
 - Foto pada folder data belum tentu sudah tersortir sesuai kelasnya.
 > Solusi: Memindahkan secara manual terlebih dahulu ke dalam folder yang sesuai
-- Cropping untuk meminimalisisr <i>noise</i> pada gambar dengan script python. Cropping dengan autocrop (dynamic cropping) dilakukan untuk data test saja.
+- Cropping untuk meminimalisisr <i>noise</i> pada gambar dengan script python.
 - Remove background untuk kategori kelas "realperson", "face_mask" dan "face_mannequin" untuk mengenali texture.
 
 ### <span style="color:green">B. Exploratory Data</span>
