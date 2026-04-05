@@ -77,7 +77,7 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 ### <span style="color:green">B. Exploratory Data</span>
 - overview dataset
 - visual inspect
-- data quality dan structure
+- data quality dan structure<br>
 <b>Kesimpulan dari EDA:</b><br>
 > 1. xxx<br>
 > 2. xxx<br>
