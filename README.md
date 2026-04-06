@@ -87,7 +87,7 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 
 ### <span style="color:green">C. Preprocessing Data
 - Split data dengan komposisi 80% train dan 20% validation
-- Augmentasi (training only) difokuskan pada variasi tekstur dan kualitas citra:
+- Augmentasi (training only) difokuskan pada variasi tekstur dan kualitas citra:<br>
 a. Rotasi ringan (±15°)<br>
 b. Blur (Gaussian) untuk simulasi noise<br>
 c. Penyesuaian ketajaman, autocontrast, dan equalize<br>
