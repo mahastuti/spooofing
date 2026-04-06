@@ -67,20 +67,20 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 
 ## ✅ Result Summary
 ### <span style="color:green">A. Cleaning Data</span>
-- Foto pada folder data belum tentu sudah tersortir sesuai kelasnya.
+- Foto pada folder data belum tentu sudah tersortir sesuai kelasnya
 > Solusi: Memindahkan secara manual terlebih dahulu ke dalam folder yang sesuai
 - Cropping untuk meminimalisisr <i>noise</i> pada gambar
 - Resize ke dalam ukuran yang sama, yaitu 224 x 224
-- Menghilangkan data duplikat
-- Fix file corrupt dan RGB/ format yang tidak sesuai
+- Menghilangkan gambar duplikat
+- Fix file corrupt
 
 ### <span style="color:green">B. Exploratory Data</span>
 - overview dataset
 - visual inspect
 - data quality dan structure<br><br>
 <b>Kesimpulan dari EDA:</b><br>
-> 1. xxx<br>
-> 2. xxx<br>
+> 1. data train didominasi oleh kelas fake (~73%) imbalance<br>
+> 2. format gambar didominasi oleh .jpg di train dan test<br>
 > 3. xxx<br>
 
 ### <span style="color:green">C. Preprocessing Data
