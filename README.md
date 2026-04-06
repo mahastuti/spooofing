@@ -93,7 +93,7 @@ b. Blur (Gaussian) untuk simulasi noise<br>
 c. Penyesuaian ketajaman, autocontrast, dan equalize<br>
 d. Perubahan warna ringan (brightness, contrast, saturation kecil)<br>
 e. Random erasing untuk meningkatkan robustness<br>
-- Transformasi dasar:
+- Transformasi dasar:<br>
 a. Konversi gambar ke tensor<br>
 b. Normalisasi menggunakan mean dan std ImageNet<br>
 - Validation set hanya menggunakan tensor + normalisasi (tanpa augmentasi) untuk evaluasi yang objektif.
