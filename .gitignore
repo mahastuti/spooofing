@@ -1,4 +1,12 @@
+data/
+!data/sample_submission.csv
+
 .venv/
 __pycache__/
-*.pyc
-data/
+
+.DS_Store
+Thumbs.db
+
+.ipynb_checkpoints/
+
+*.csv
