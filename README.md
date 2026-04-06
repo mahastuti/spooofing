@@ -87,9 +87,16 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 
 ### <span style="color:green">C. Preprocessing Data
 - Split data dengan komposisi 80% train dan 20% validation
-- Normalization
-- Preprocessing
-- Augmentation
+- Augmentasi (training only) difokuskan pada variasi tekstur dan kualitas citra:
+a. Rotasi ringan (±15°)
+b. Blur (Gaussian) untuk simulasi noise
+c. Penyesuaian ketajaman, autocontrast, dan equalize
+d. Perubahan warna ringan (brightness, contrast, saturation kecil)
+e. Random erasing untuk meningkatkan robustness
+- Transformasi dasar:
+a. Konversi gambar ke tensor
+b. Normalisasi menggunakan mean dan std ImageNet
+- Validation set hanya menggunakan tensor + normalisasi (tanpa augmentasi) untuk evaluasi yang objektif.
 
 ### <span style="color:green">D. Model
 halo
