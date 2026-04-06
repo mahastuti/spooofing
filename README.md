@@ -76,12 +76,14 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 
 ### <span style="color:green">B. Exploratory Data</span>
 - overview dataset
-- visual inspect
 - data quality dan structure<br><br>
 <b>Kesimpulan dari EDA:</b><br>
 > 1. data train didominasi oleh kelas fake (~73%) imbalance<br>
 > 2. format gambar didominasi oleh .jpg di train dan test<br>
-> 3. xxx<br>
+> 3. cropping tidak mengubah brightness secara signifikan, tetapi menurunkan contrast (lebih homogen)<br>
+> 4. distribusi RGB setelah cropping lebih terstruktur, menandakan fokus ke area wajah<br>
+> 5. antar kelas masih sangat overlap, sehingga sulit dipisahkan hanya dari brightness & contrast<br>
+> 6. tekankan augmentasi yang memperkaya tekstur dan artefak wajah, karena brightness/contrast tidak cukup membedakan kelas.
 
 ### <span style="color:green">C. Preprocessing Data
 - Split data dengan komposisi 80% train dan 20% validation
