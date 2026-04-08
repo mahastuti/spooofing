@@ -58,11 +58,12 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 2. Cleaning data
 3. Explorasi data
 4. Preprocessing data 
-5. Training model 1
-6. Training model 2
-7. Metrik evaluasi
-8. Predict test data
-9. Submit
+5. Training + Validation model 1
+6. Training + Validation model 2
+7. Training +  Validation model 3
+8. Ensembling
+9. Predict test data
+10. Submit
 
 
 ## ✅ Result Summary
@@ -99,8 +100,6 @@ b. Normalisasi menggunakan mean dan std ImageNet<br>
 - Validation set hanya menggunakan tensor + normalisasi (tanpa augmentasi)
 
 ### <span style="color:green">D. Model
-halo
-### <span style="color:green">E. Tuning
 halo
 
 ## 🏆 Evaluation
