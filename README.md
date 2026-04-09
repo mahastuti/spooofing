@@ -65,7 +65,7 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 9. Predict test data
 10. Submit
 
-## ⏳ Petunjuk Menjalankan Notebook
+## 📝 Petunjuk menjalankan notebook
 1. Siapkan Environment
 - Install Python (≥ 3.8)
 - Install dependencies:
