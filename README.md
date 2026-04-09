@@ -58,12 +58,10 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 2. Cleaning data
 3. Explorasi data
 4. Preprocessing data 
-5. Training + Validation model 1
-6. Training + Validation model 2
-7. Training +  Validation model 3
-8. Ensembling
-9. Predict test data
-10. Submit
+5. Training + Validation model
+6. Ensembling
+7. Predict test data
+8. Submit
 
 ## 📝 Petunjuk menjalankan notebook
 1. Siapkan environment
