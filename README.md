@@ -137,5 +137,6 @@ b. Normalisasi menggunakan mean dan std ImageNet<br>
 - Best model:
 - Skor final kaggle leaderboard: 
 - Accuracy:<br>
-<b>Suggestion:
+
+> <b>Suggestion:
 > xxxxx
