@@ -66,7 +66,7 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 10. Submit
 
 ## 📝 Petunjuk menjalankan notebook
-1. Siapkan Environment
+1. Siapkan environment
 - Install Python (≥ 3.8)
 - Install dependencies:
 ```bash
@@ -125,8 +125,14 @@ a. Konversi gambar ke tensor<br>
 b. Normalisasi menggunakan mean dan std ImageNet<br>
 - Validation set hanya menggunakan tensor + normalisasi (tanpa augmentasi)
 
-### <span style="color:green">D. Model
-1. 
+### <span style="color:green">D. Modeling
+1. Preprocess (augmentasi, split 90:10)
+2. Hyperparameter tuning menggunakan Optuna dengan K-Fold Cross Validation
+3. Pemilihan hyperparameter terbaik berdasarkan performa rata-rata
+4. Training final model menggunakan seluruh data training
+5. Ensemble model
+6. Predict
 
 ## 🏆 Evaluation
-
+1. Evaluasi model
+2. Saran selanjutnya
