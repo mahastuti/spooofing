@@ -70,13 +70,15 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 ```bash
 pip install torch torchvision timm scikit-learn matplotlib seaborn optuna
 ```
-2. Pastikan struktur data sudah sesuai
+2. Pastikan struktur folder sudah sesuai
 ```bash
 data/
   cropped/
   cropped_test/
   test/
   train/
+models/
+notebook/
 ```
 3. Jalankan notebook secara berurutan
 - Masuk ke folder notebook/
