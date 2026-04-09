@@ -125,7 +125,7 @@ a. Konversi gambar ke tensor<br>
 b. Normalisasi menggunakan mean dan std ImageNet<br>
 - Validation set hanya menggunakan tensor + normalisasi (tanpa augmentasi)
 
-### <span style="color:green">D. Modeling
+### <span style="color:green">D. Modeling & Predict
 1. Preprocessing dan augmentasi data
 2. Tuning hyperparameter menggunakan Optuna dengan Stratified K-Fold Cross Validation
 3. Pemilihan hyperparameter terbaik berdasarkan rata-rata performa cross-validation
@@ -134,13 +134,12 @@ b. Normalisasi menggunakan mean dan std ImageNet<br>
 6. Ensemble model
 7. Predict
 
-## 🏆Evaluation & Suggestion:
+## 🏆Evaluation & Suggestions:
 - Best model:
   1. xxx
   2. xxx
 - Skor final kaggle leaderboard: 
-- Accuracy:<br>
-- Penyebab overfit:
-
-> <b>Suggestion:
+- Accuracy:
+- Penyebab overfit:<br>
+> <b>Suggestions:
 > xxxxx
