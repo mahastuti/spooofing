@@ -83,10 +83,10 @@ data/
 3. Jalankan notebook secara berurutan
 - Masuk ke folder notebook/
 - Jalankan file berikut secara urut:
-> 01_*.ipynb
-> 02_*.ipynb
-> 03_*.ipynb
-> 04_*.ipynb
+> 01_*.ipynb <br>
+> 02_*.ipynb<br>
+> 03_*.ipynb<br>
+> 04_*.ipynb<br>
 > ⚠️ Wajib dijalankan berurutan karena ada dependency antar notebook
 4. (Opsional) gunakan GPU
 ```bash
