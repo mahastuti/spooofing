@@ -126,12 +126,13 @@ b. Normalisasi menggunakan mean dan std ImageNet<br>
 - Validation set hanya menggunakan tensor + normalisasi (tanpa augmentasi)
 
 ### <span style="color:green">D. Modeling
-1. Preprocess (augmentasi, split 90:10)
-2. Hyperparameter tuning menggunakan Optuna dengan K-Fold Cross Validation
-3. Pemilihan hyperparameter terbaik berdasarkan performa rata-rata
-4. Training final model menggunakan seluruh data training
-5. Ensemble model
-6. Predict
+1. Preprocessing dan augmentasi data
+2. Tuning hyperparameter menggunakan Optuna dengan Stratified K-Fold Cross Validation
+3. Pemilihan hyperparameter terbaik berdasarkan rata-rata performa cross-validation
+4. Pelatihan ulang model menggunakan seluruh data pelatihan
+5. Evaluasi model (metrik evaluasi/ menggunakan data uji yang tidak pernah dilihat sebelumnya)
+6. Ensemble model
+7. Predict
 
 ## 🏆Evaluation & Suggestion:
 - Best model:
