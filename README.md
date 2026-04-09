@@ -136,8 +136,11 @@ b. Normalisasi menggunakan mean dan std ImageNet<br>
 
 ## 🏆Evaluation & Suggestion:
 - Best model:
+  1. xxx
+  2. xxx
 - Skor final kaggle leaderboard: 
 - Accuracy:<br>
+- Penyebab overfit:
 
 > <b>Suggestion:
 > xxxxx
