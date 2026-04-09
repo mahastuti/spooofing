@@ -65,6 +65,33 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 9. Predict test data
 10. Submit
 
+## ⏳ Petunjuk Menjalankan Notebook
+1. Siapkan Environment
+- Install Python (≥ 3.8)
+- Install dependencies:
+```bash
+pip install torch torchvision timm scikit-learn matplotlib seaborn optuna
+```
+2. Pastikan struktur data sudah sesuai
+```bash
+data/
+  cropped/
+  cropped_test/
+  test/
+  train/
+```
+3. Jalankan notebook secara berurutan
+- Masuk ke folder notebook/
+- Jalankan file berikut secara urut:
+> 01_*.ipynb
+> 02_*.ipynb
+> 03_*.ipynb
+> 04_*.ipynb
+> ⚠️ Wajib dijalankan berurutan karena ada dependency antar notebook
+4. (Opsional) gunakan GPU
+```bash
+device = "cuda" if torch.cuda.is_available() else "cpu"
+```
 
 ## ✅ Result Summary
 ### <span style="color:green">A. Cleaning Data</span>
@@ -89,18 +116,17 @@ Dataset terdiri dari citra wajah yang dibagi ke dalam **6 kategori utama**:
 ### <span style="color:green">C. Preprocessing Data
 - Split data dengan komposisi 80% train dan 20% validation
 - Augmentasi (training data only) difokuskan pada variasi tekstur dan kualitas citra:<br>
-a. Rotasi ringan (±15°)<br>
-b. Blur (Gaussian) untuk simulasi noise<br>
-c. Penyesuaian ketajaman, autocontrast, dan equalize<br>
-d. Perubahan warna ringan (brightness, contrast, saturation kecil)<br>
-e. Random erasing untuk meningkatkan robustness<br>
+a. Horizontal flip secara acak (p=0.5)<br>
+b. Rotasi ringan (±10°)<br>
+c. Penyesuaian warna ringan menggunakan ColorJitter (brightness, contrast, saturation, hue kecil)<br>
+d. Penyesuaian ketajaman (RandomAdjustSharpness) untuk variasi tekstur<br>
 - Transformasi dasar:<br>
 a. Konversi gambar ke tensor<br>
 b. Normalisasi menggunakan mean dan std ImageNet<br>
 - Validation set hanya menggunakan tensor + normalisasi (tanpa augmentasi)
 
 ### <span style="color:green">D. Model
-halo
+1. 
 
 ## 🏆 Evaluation
 
