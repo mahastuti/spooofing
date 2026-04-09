@@ -133,6 +133,8 @@ b. Normalisasi menggunakan mean dan std ImageNet<br>
 5. Ensemble model
 6. Predict
 
-## 🏆 Evaluation
-1. Evaluasi model
-2. Saran selanjutnya
+## 🏆Results & Evaluation
+- Best model:
+- Skor final kaggle leaderboard: 
+- Accuracy:
+- Suggestion:
