@@ -114,7 +114,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 > 6. Tekankan augmentasi yang memperkaya tekstur dan artefak wajah, karena brightness/contrast tidak cukup membedakan kelas.
 
 ### <span style="color:green">C. Preprocessing Data
-- Split data dengan komposisi 80% train dan 20% validation
+- Split data dengan komposisi 90% train dan 10% validation
 - Augmentasi (training data only) difokuskan pada variasi tekstur dan kualitas citra:<br>
 a. Horizontal flip secara acak (p=0.5)<br>
 b. Rotasi ringan (±10°)<br>
@@ -125,6 +125,7 @@ a. Konversi gambar ke tensor<br>
 b. Normalisasi menggunakan mean dan std ImageNet<br>
 - Validation set hanya menggunakan tensor + normalisasi (tanpa augmentasi)
 
+<<<<<<< HEAD
 ### <span style="color:green">D. Modeling & Predict
 1. Preprocessing dan augmentasi data
 2. Tuning hyperparameter menggunakan Optuna dengan Stratified K-Fold Cross Validation
@@ -133,6 +134,12 @@ b. Normalisasi menggunakan mean dan std ImageNet<br>
 5. Evaluasi model (metrik evaluasi/ menggunakan data uji yang tidak pernah dilihat sebelumnya)
 6. Ensemble model
 7. Predict
+=======
+### <span style="color:green">D. Model
+- Split data dengan komposisi 80% train dan 20% validation
+
+## 🏆 Evaluation
+>>>>>>> 6db143b (checkpoint)
 
 ## 🏆Evaluation & Suggestions:
 - Best model:
